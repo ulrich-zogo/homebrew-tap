@@ -7,10 +7,10 @@ class Ocgo < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ulrich-zogo/ocgo/releases/download/v0.0.0-test.1/ocgo_0.0.0-test.1_darwin_arm64.tar.gz"
-      sha256 "0fb1f3fa70551cdd180e6d2612e2fceb9b52e50ce9527fceef6affc50ee9d8a3"
+      sha256 "09bab71cb1254577839ef05ca5a49326e2c694fe81ea3bc7fd8b77d2f95514b9"
     else
       url "https://github.com/ulrich-zogo/ocgo/releases/download/v0.0.0-test.1/ocgo_0.0.0-test.1_darwin_x86_64.tar.gz"
-      sha256 "6f24ebec772d3899e7b4ee2c777abf4133070d523999a5b6181820e5d4d453cf"
+      sha256 "34f3d3163cf5c2bd596e61cf63424dbc9d9c39bc9ba91188b193b352191aa0ac"
     end
   end
 
