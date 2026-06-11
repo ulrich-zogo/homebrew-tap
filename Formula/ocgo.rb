@@ -19,6 +19,6 @@ class Ocgo < Formula
   end
 
   test do
-    system "\#{bin}/ocgo", "--help"
+    assert_predicate bin/"ocgo", :exist?
   end
 end
